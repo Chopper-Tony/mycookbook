@@ -28,6 +28,6 @@ jobs:
       # Pythonn Lint
       - name: Python Lint
         run: |
-          pip install balck flake8
+          pip install -r requirements.txt
           black --check --diff *.py
           
